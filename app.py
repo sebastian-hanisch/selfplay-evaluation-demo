@@ -150,7 +150,7 @@ st.markdown(
     f"""
     Jede Generation spielt {_de(C.GAMES_PER_GENERATION)} Partien gegen sich selbst (mit {C.SELFPLAY_EPSILON:.0%}
     Zufallszug-Anteil für Vielfalt - reines "vernünftiges" Spiel führt auf diesem kleinen Brett fast immer
-    zurück zum theoretischen Remis, siehe „Wo die Annahmen enden"), sammelt die besuchten Stellungen mit
+    zurück zum theoretischen Remis, siehe „Wo die Annahmen enden“), sammelt die besuchten Stellungen mit
     ihrem EXAKTEN Wert und passt die Gewichte neu an.
     """
 )
